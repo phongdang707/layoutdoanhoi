@@ -1,0 +1,409 @@
+/* post img */
+.post_img {
+    height: 520px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background: rgb(0, 0, 0);
+}
+
+.content_postimg {
+    position: relative;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8183648459383753) 0%, rgba(0, 0, 0, 0.008841036414565795) 34%, rgba(0, 0, 0, 0.8211659663865546) 100%, rgba(9, 9, 121, 1) 100%);
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.h1 {
+    color: white;
+}
+
+.col-12.header_big {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    max-width: 800px;
+}
+
+.col-md-3.col-12.m-auto {
+    padding-top: 20px;
+}
+
+.content_left {
+    background-color: white;
+    border: 2px solid #8080803d;
+    border-radius: 2px;
+    padding: 35px;
+    margin-top: -20px;
+}
+
+
+img.avatar.m-auto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+}
+
+.col-md-3.col-12 {
+    border-right: 1px solid #8080807d;
+}
+
+a.name {
+    font-size: 12px;
+}
+
+a.name:hover {
+    color: #dc0003;
+    opacity: 1;
+}
+
+.icon {
+    padding-top: 0px;
+    font-size: 13px;
+    color: #6b6b6b;
+    padding-bottom: 10px;
+}
+
+.icon i {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+p.btn_post a {
+    font-size: 13px;
+    margin-right: 12px;
+    background-color: #e5e5e5;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+p.btn_post a:hover {
+    background-color: black;
+    color: white;
+}
+
+p.icon.btn_post {
+    padding-bottom: 20px;
+}
+
+span.hvr-radial-out {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+span.hvr-radial-out a {
+    color: white;
+}
+
+span.hvr-radial-out.face {
+    background-color: #3b5998;
+}
+
+span.hvr-radial-out.face:hover {
+    background-color: white;
+    border: 1px solid #3b5998;
+    color: #3b5998;
+}
+
+.cate_post {
+    border: 1px solid #8080805e;
+    padding: 35px;
+    box-shadow: 0px 0px 10px #80808099;
+}
+
+.col-12.img_post {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 180px;
+}
+
+.h5.text-left {
+    line-height: 17px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    font-size: 21px;
+}
+
+.h5.text-left a {
+    color: white;
+}
+
+.background_post {
+    position: absolute;
+    background-color: #00000030;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.text-left.pt-2 {
+    position: absolute;
+}
+
+.h5.text-left.out_img {
+    position: unset;
+}
+
+.text-left.out_zone a {
+    font-size: 10px;
+    padding: 3px 6px;
+}
+
+.h5.text-left.text-black a {
+    color: black;
+    position: relative;
+}
+
+.h5.text-left.text-black {
+    position: unset;
+}
+
+.col-lg-3.col-12.text-center {
+    border-right: 1px solid #8080803b;
+}
+
+.text-header {
+    font-weight: 700;
+}
+
+/* end post img */
+
+/* recent posts */
+img.img_recent {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.recent_post {
+    border: 1px solid #80808038;
+    background-color: white;
+    box-shadow: 0px 0px 5px #808080b0;
+    margin: 50px 0px;
+}
+
+.recent_post i.far.fa-calendar {
+    padding: unset;
+}
+
+.h7 span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+a.cmt {
+    font-size: 14px;
+    font-weight: 700;
+    color: #635e5e;
+    transition: .5s;
+}
+
+a.cmt:hover {
+    color: #dc0003;
+    opacity: 1;
+    transition: .5s;
+}
+
+/* end recent posts */
+
+/* profile */
+.profile .h2 {
+    color: #181818;
+    font-weight: 700;
+}
+
+.profile {
+    background-color: #e5e5e5;
+    border-radius: 2px;
+}
+
+.profile i.fab {
+    margin: 0px 10px;
+}
+
+a.view_all {
+    box-shadow: 0px 0px 3px #616161;
+    background-color: #616161;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 1px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+a.view_all:hover {
+    opacity: 1;
+    color: white;
+    background-color: #2e2e2e;
+}
+
+i.fab.fa-facebook-f {
+    /* color: #3b5998; */
+}
+
+i.fab.fa-twitter {
+    color: #1da1f2;
+}
+
+i.fab.fa-linkedin-in {
+    color: #007bb5;
+}
+
+i.fab.fa-google-plus-g {
+    color: #dc4e40;
+}
+
+span.icon_app a:hover {
+    opacity: 1;
+}
+
+span.icon_app a i:hover {
+    color: #181818;
+    opacity: 1;
+}
+
+/* end profile */
+
+/* QA */
+.qa img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End QA */
+
+/* next previous */
+
+.next_pre {
+    border: 1px solid #80808070;
+}
+
+.next_pre img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+span.btn_np {
+    font-size: 12px;
+}
+
+.np:hover .h6 {
+    color: #dc0003;
+    transition: .3s;
+}
+
+a.np:hover img {
+    background-image: none;
+    transition: .3s;
+}
+
+.pre {
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+a.np:hover .pre {
+    background-image: none !important;
+}
+
+a.np:hover i.fas.fa-chevron-left {
+    opacity: 1;
+    transition: .3s;
+}
+
+i.fas.fa-chevron-left {
+    opacity: 0;
+    line-height: 46px;
+    transition: .3s;
+}
+
+a.np:hover i.fas.fa-chevron-right {
+    opacity: 1;
+    transition: .3s;
+}
+
+i.fas.fa-chevron-right {
+    opacity: 0;
+    line-height: 46px;
+    transition: .3s;
+}
+
+/* end next previous */
+
+/* Title comment */
+.title_comment span {
+    color: #dc0003;
+}
+
+.title_one {
+    color: #181818;
+}
+
+span.title_icon {
+    border-right: 1px solid #8080805c;
+}
+
+.comment {
+    border: 1px solid #80808059;
+}
+
+.comment .col-6 {
+    margin: unset;
+    height: unset;
+    font-size: unset;
+}
+
+.comment .col-12.col-lg-3.h5 {
+    border-right: 1px solid #80808094;
+}
+
+.reply:hover {
+    color: #dc0003;
+    opacity: 1;
+}
+
+a.reply {
+    font-size: 13px;
+}
+
+.comment .icon i {
+    padding-left: unset;
+}
+
+/* End title comment */
+
+/* Leave Reply */
+.star {
+    color: #dc0003;
+}
+
+.leave_reply {
+    padding: 30px;
+    background-color: #e5e5e5;
+}
+
+.leave_reply a.button_show_more {
+    float: right;
+    width: 165px;
+}
+
+/* End leave reply */
+
+
+@media only screen and (max-width: 1023px) {
+    .col-lg-3.col-12.text-center {
+        border-right: none
+    }
+}
